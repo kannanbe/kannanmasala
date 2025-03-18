@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f5e4;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B0000;
+    padding: 15px 30px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#about img {
+    width: 50%;
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+/* Benefits */
+#benefits {
+    padding: 50px;
+    background-color: #f4d03f;
+}
+
+#benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+#benefits li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #e6b800;
+    padding: 50px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 80%;
+}
+
+/* Contact */
+#contact {
+    background-color: #8B0000;
+    color: white;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #6b0000;
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+}
